@@ -10,7 +10,7 @@ const App = () => {
       <div className="flex min-h-screen">
         <Navbar />
         <Routes>
-          <Route path="/create-phone" element={<CreatePhone />} />
+          <Route path="/" element={<CreatePhone />} />
           <Route path="/create-color" element={<CreateColor />} />
           <Route path="/manage-phone" element={<ManagePhone />} />
         </Routes>

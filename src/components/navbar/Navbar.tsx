@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="w-64 bg-[#427DC0] text-white p-4 flex-shrink-0">
       <h1 className="text-xl pl-5 font-bold mb-6">LOGOO</h1>
       <nav className="space-y-2">
-        <Link to="/create-phone">
+        <Link to="/">
           <div className="flex pl-5">
             <div className="flex items-center">
               <RiApps2AddLine />
