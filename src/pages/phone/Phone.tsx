@@ -52,6 +52,7 @@ const handleSubmit = async (e: React.FormEvent) => {
           <input
             type="text"
             name="tittle"
+            required
             value={form.tittle}
             onChange={handleChange}
             className="w-full mt-1 px-4 py-2 bg-[#F8F8F8] rounded"
@@ -62,6 +63,7 @@ const handleSubmit = async (e: React.FormEvent) => {
           <input
             type="number"
             name="price"
+            required
             value={form.price}
             onChange={handleChange}
             className="w-full mt-1 px-4 py-2 bg-[#F8F8F8] rounded"
@@ -71,6 +73,7 @@ const handleSubmit = async (e: React.FormEvent) => {
           <label>Image-url</label>
           <input
             type="text"
+            required
             name="img"
             value={form.img}
             onChange={handleChange}

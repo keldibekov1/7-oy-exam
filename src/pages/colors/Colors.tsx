@@ -23,6 +23,7 @@ const CreateColor = () => {
             <label className=" ">Name</label>
             <input
               type="text"
+              required
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full mt-1 px-4 py-2 bg-[#F8F8F8] rounded"
